@@ -1,0 +1,56 @@
+{
+  "name": "openai-bundled",
+  "interface": {
+    "displayName": "OpenAI Bundled"
+  },
+  "plugins": [
+    {
+      "name": "browser",
+      "source": {
+        "source": "local",
+        "path": "./plugins/browser"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Engineering"
+    },
+    {
+      "name": "chrome",
+      "source": {
+        "source": "local",
+        "path": "./plugins/chrome"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "computer-use",
+      "source": {
+        "source": "local",
+        "path": "./plugins/computer-use"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "latex",
+      "source": {
+        "source": "local",
+        "path": "./plugins/latex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    }
+  ]
+}

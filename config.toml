@@ -1,0 +1,75 @@
+model = "gpt-5.5"
+model_reasoning_effort = "medium"
+
+notify = [ "C:\\Users\\<用户名>\\.codex\\plugins\\cache\\openai-bundled\\computer-use\\26.527.31326\\node_modules\\@oai\\sky\\bin\\windows\\codex-computer-use.exe", "turn-ended" ]
+[mcp_servers.pencil]
+command = "c:\\Users\\<用户名>\\.cursor\\extensions\\highagency.pencildev-0.6.52-universal\\out\\mcp-server-windows-x64.exe"
+args = [ "--app", "cursor", "--agent", "codexCLI" ]
+
+[mcp_servers.node_repl]
+args = []
+command = 'C:\Users\<用户名>\AppData\Local\OpenAI\Codex\bin\34ab3e1324cc55b5\node_repl.exe'
+startup_timeout_sec = 120
+
+[mcp_servers.node_repl.env]
+NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS = "1000"
+NODE_REPL_NODE_MODULE_DIRS = 'C:\Users\<用户名>\.codex\plugins\cache\openai-bundled\computer-use\26.527.31326\node_modules'
+NODE_REPL_NODE_PATH = 'C:\Users\<用户名>\AppData\Local\OpenAI\Codex\bin\5b9024f90663758b\node.exe'
+NODE_REPL_TRUSTED_CODE_PATHS = 'C:\Users\<用户名>\.codex'
+CODEX_HOME = 'C:\Users\<用户名>\.codex'
+NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S = "0b0d41e7a14a4903d2f95b0b3f427ed796b12c8edca2fa392a03df43997075ae,e13c388c2427308a68dffc803e1f28316077b719672e4518a621ae6ab56ad7cf"
+BROWSER_USE_AVAILABLE_BACKENDS = "chrome,iab"
+NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER = "Control the in-app browser in conjunction with the Browser Plugin."
+NODE_REPL_INSTRUCTIONS_USE_CASE_CHROME = "Control the Chrome browser in conjunction with the Chrome Plugin. Prefer this method of controlling Chrome over alternatives (such as Computer Use) unless the user explicitly mentions an alternative."
+BROWSER_USE_CODEX_APP_BUILD_FLAVOR = "prod"
+SKY_CUA_NATIVE_PIPE = "1"
+SKY_CUA_NATIVE_PIPE_DIRECTORY = '\\.\pipe\codex-computer-use-9232ffac-60c0-43eb-b5a9-eac7e85f3bd4'
+CODEX_CLI_PATH = 'C:\Users\<用户名>\AppData\Local\OpenAI\Codex\bin\7dea4a003bc76627\codex.exe'
+
+[marketplaces.openai-primary-runtime]
+last_updated = "2026-05-29T08:14:00Z"
+source_type = "local"
+source = "\\\\?\\C:\\Users\\<用户名>\\.cache\\codex-runtimes\\codex-primary-runtime\\plugins\\openai-primary-runtime"
+
+[plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = true
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = true
+
+[desktop]
+conversationDetailMode = "STEPS_COMMANDS"
+localeOverride = "zh-CN"
+
+[features]
+computer_use = true
+js_repl = false
+
+[windows]
+sandbox = "unelevated"
+
+[marketplaces.openai-bundled]
+last_updated = "2026-06-01T00:00:00Z"
+source_type = "local"
+source = "\\\\?\\C:\\Users\\<用户名>\\.codex\\.tmp\\bundled-marketplaces\\openai-bundled"
+
+[plugins."computer-use@openai-bundled"]
+enabled = true
+
+[plugins."chrome@openai-bundled"]
+enabled = true
+
+[projects."c:\\Users\\<用户名>\\documents\\codex\\2026-05-29\\new-chat"]
+trust_level = "trusted"
+
+[projects."c:\\Users\\<用户名>\\documents\\codex\\2026-06-01\\codex-codex-computer-use-computer-use"]
+trust_level = "trusted"
+
+[projects.'c:\Users\<用户名>\documents\codex\2026-06-01\new-chat']
+trust_level = "trusted"
+
+[projects.'c:\Users\<用户名>\documents\codex\2026-06-01\computer-use']
+trust_level = "trusted"

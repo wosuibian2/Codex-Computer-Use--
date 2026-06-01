@@ -1,0 +1,10 @@
+# 从 Codex 本地安装获取的二进制文件（setup.ps1 自动复制）
+bin/
+
+# npm 依赖（从 Codex 安装位置复制）
+node_modules/
+
+# 系统杂项
+*.log
+.DS_Store
+Thumbs.db
